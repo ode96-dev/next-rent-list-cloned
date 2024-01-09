@@ -2,7 +2,7 @@ import prisma from "@/libs/prismadb";
 
 export interface IListingsParams {
   userId?: string;
-  guestCount: number;
+  guestCount?: number;
   roomCount?: number;
   bathroomCount?: number;
   startDate?: string;
