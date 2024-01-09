@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Nextbnb - Nextjs Clone of Airbnb
 
-## Getting Started
+## Features
 
-First, run the development server:
+### Style
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Tailwind Css
+Responsiveness
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Database
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Prisma
+Mongodb
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Authentication & validations
 
-## Learn More
+### NextAuth
 
-To learn more about Next.js, take a look at the following resources:
+Credential Authentication
+Google authentication
+Github authentication
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Client form validation and handling using react-hook-form
+Server error handling using react-toast
+Page loading state
+Page empty state
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Uploading
 
-## Deploy on Vercel
+Image upload using Cloudinary CDN
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Calendar
+
+Calendars with react-date-range
+
+### Functionalities
+
+#### Functionality - Reservation
+
+Booking / Reservation system
+Guest reservation cancellation
+Owner reservation cancellation
+
+#### Functionality - Creation & Deletion
+
+Creation and deletion of properties
+
+#### Functionality - Pricing
+
+Price calculator
+
+#### Functionality - Searching & Filtering
+
+Advanced search algorithm by category, date range, map location, number of guests, rooms and bathrooms.
+
+#### Functionality - Liking
+
+Favorites
+
+#### Functionality - Shareability
+
+Shareable URL
